@@ -12,13 +12,17 @@
 
 //This is the end result you're aiming for:
 //https://pogqj.csb.app/
-
 import React from 'react';
-import * as ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import App from './components/App';
 
 
-const container = document.getElementById('root');
-//const root = ReactDOMClient.createRoot(container);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-ReactDOM.render(<App />, container);
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
