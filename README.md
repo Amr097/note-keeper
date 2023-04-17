@@ -2,7 +2,7 @@
 
 ## Summary
 
-Simple note taking app built with Reactjs and css as part of react tutorial
+Simple note taking app built with React components and css as part of react tutorial
 
 ## Installation
 
